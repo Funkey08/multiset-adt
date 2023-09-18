@@ -17,6 +17,7 @@ public class Tree<T> {
     }
 
     public int length() {
+//        Return the number of items contained in this tree.
         if (this.is_empty()) return 0;
         else {
             int size = 1;
