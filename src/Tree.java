@@ -57,7 +57,7 @@ public class Tree<T> {
             String s = new String(new char[depth]).replace('\0', ' ') + this.root.toString() + "\n";
             for (Tree<T> subtree: subtrees) {
                 s += subtree.strIndented(depth + 1);
-            };
+            }
             return s;
         }
     }
